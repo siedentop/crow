@@ -14,7 +14,7 @@
 
 ### Setup
 
-- `nlohmann::crow::crow(dsn, context={}, sample_rate=1.0, install_handlers=true)` to create a client
+- `nlohmann::crow::crow(dsn, context={}, sample_rate=1.0, install_handlers=false)` to create a client
 - `nlohmann::crow::install_handler()` to later install termination handler
 
 ### Reporting
